@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minimal frontend portfolio landing page.">
+    <title>Prakash Chaudhary | AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="#home">Prakash Chaudhary</a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero section reveal">
+            <div class="hero-copy">
+                <p class="eyebrow">AI engineer portfolio</p>
+                <h1>AI Engineer building practical, useful digital experiences.</h1>
+                <p class="lead">
+                    I'm Prakash Chaudhary, a Computer Engineering student with a strong interest in Artificial
+                    Intelligence,
+                    Machine Learning, and LLM-based applications. I'm focused on building practical projects while
+                    strengthening
+                    my fundamentals in Python, data science, and software engineering.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#work">View projects</a>
+                    <a class="button button-secondary" href="#contact">Contact me</a>
+                </div>
+
+                <div class="hero-meta">
+                    <div>
+                        <span class="meta-label">Role</span>
+                        <span class="meta-value">AI Engineer</span>
+                    </div>
+                    <div>
+                        <span class="meta-label">Based in</span>
+                        <span class="meta-value">Remote</span>
+                    </div>
+                    <div>
+                        <span class="meta-label">Status</span>
+                        <span class="meta-value">Open for internships / opportunities</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-label="Profile card">
+                <div class="profile-card">
+                    <div class="profile-photo">
+                        <img src="images/profe.png" alt="Prakash Chaudhary portrait">
+                    </div>
+                    <div>
+                        <p class="profile-name">Prakash Chaudhary</p>
+                        <p class="profile-title">AI Engineer</p>
+                    </div>
+                    <p class="profile-note">
+                        I want to become an AI engineer who develops intelligent systems that solve real-world problems
+                        while continuing to learn through hands-on work.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section split reveal" id="about">
+            <div>
+                <p class="eyebrow">About</p>
+                <h2>Simple now, stronger with every project.</h2>
+            </div>
+            <p>
+                This site starts lean so it feels finished even before the bigger portfolio pieces are ready.
+                The structure is built to support future case studies, service details, and project highlights without a
+                redesign.
+            </p>
+        </section>
+
+        <section class="section reveal" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">Skills</p>
+                <h2>Core tools I use to build frontend work.</h2>
+            </div>
+
+            <div class="skill-grid">
+                <article class="skill-card">
+                    <span>HTML</span>
+                    <p>Semantic structure, accessibility, and content-first layouts.</p>
+                </article>
+                <article class="skill-card">
+                    <span>CSS</span>
+                    <p>Responsive design, layout systems, animations, and visual polish.</p>
+                </article>
+                <article class="skill-card">
+                    <span>JavaScript</span>
+                    <p>Small interactions, stateful UI behavior, and practical DOM work.</p>
+                </article>
+                <article class="skill-card">
+                    <span>Future stack</span>
+                    <p>React, APIs, performance, and project-specific tools as the portfolio grows.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section reveal" id="work">
+            <div class="section-heading">
+                <p class="eyebrow">Work</p>
+                <h2>Projects will live here as they get completed.</h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card featured">
+                    <span class="project-tag">Current focus</span>
+                    <h3>Building the portfolio foundation</h3>
+                    <p>
+                        This first version establishes the layout, tone, and structure for the site so new projects can
+                        slot in smoothly later.
+                    </p>
+                </article>
+
+                <article class="project-card muted">
+                    <span class="project-tag">Next up</span>
+                    <h3>Case study placeholder</h3>
+                    <p>
+                        Add your first project details here with a problem, solution, and result once it’s ready.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact reveal" id="contact">
+            <div>
+                <p class="eyebrow">Contact</p>
+                <h2>Let’s connect when you’re ready to collaborate.</h2>
+            </div>
+
+            <div class="contact-card">
+                <p>Replace these placeholders with your real links when they’re ready.</p>
+                <a class="contact-link" href="mailto:hello@example.com">hello@example.com</a>
+                <a class="contact-link" href="#home">Back to top</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
